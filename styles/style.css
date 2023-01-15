@@ -383,6 +383,7 @@ header {
     border-radius: 5px;
     font-size: 20px;
     outline: none;
+    box-shadow: 5px 5px 15px #f8860484;
 }
 
 .link-style-submit {
@@ -394,6 +395,8 @@ header {
     border: none;
     border-radius: 5px;
     font-size: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #f8860484;
 }
 
 /*-------------------------------
