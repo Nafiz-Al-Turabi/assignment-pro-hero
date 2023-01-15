@@ -263,7 +263,7 @@ header {
     margin: auto;
     width: 70%;
     margin-top: 100px;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 }
 
 .achievement-container {
@@ -293,11 +293,44 @@ header {
 .achievement-title {
     font-size: 45px;
     color: #414141;
-    margin: 15px;
 }
 
 .achievement-info {
     color: #727272;
+}
+
+/*-------------------------------
+ sponsors section style 
+---------------------------------*/
+.sponsors {
+    margin: auto;
+    width: 80%;
+}
+
+.sponsor-container {
+    text-align: center;
+}
+
+.sponsor-heading {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.sponsor-description{
+    color: #727272;
+
+}
+
+.sponsor-img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.sponsor-img{
+    filter: grayscale(100%);
 }
 
 /*================================
@@ -385,7 +418,7 @@ header {
     }
 
     .extra-box {
-        margin-left: 100px;
+        margin-left: 70px;
         margin-top: 600px;
     }
 
@@ -400,17 +433,34 @@ header {
     }
 
     /* Achievement media query */
-    .achievements{
+    .achievements {
         margin: auto;
         width: auto;
     }
-    .achievement-container{
+
+    .achievement-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
         margin-top: 100px;
 
+    }
+
+    /* Sponsor section media query */
+    .sponsors{
+        margin: auto;
+        width: auto;
+    }
+    .sponsor-container{
+        margin: 100px;
+    }
+    .sponsor-heading {
+        font-size: 30px;
+    }
+    .sponsor-img-container{
+        flex-direction: column;
+        gap: 40px;
     }
 
 }
